@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    index
+    about
   </div>
 </template>
 

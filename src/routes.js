@@ -7,10 +7,15 @@ const routes = [
     component: () => import('./pages/index')
   },
   {
+    path: '/about',
+    component: () => import('./pages/about')
+  },
+  {
     path: '*',
     redirect: '/'
   }
 ]
 export default new VueRouter({
+  mode: 'history',
   routes
 })
